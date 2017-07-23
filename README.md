@@ -35,7 +35,7 @@ private function school_id()
 
 ## Installation
 
-``composer required tkeer/ease-request 1.*``
+``composer require tkeer/ease-request 1.*``
 
 ## Usage
 
