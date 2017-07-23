@@ -35,9 +35,9 @@ private function school_id()
 
 ## Installation
 
-``composer required tkeer/ease-request 1.0.1``
+``composer required tkeer/ease-request 1.*``
 
-##Usage
+## Usage
 
 ### Using abstract class EaseRequest
 Extend your class by EaseRequest instead of FormRequest, implement
