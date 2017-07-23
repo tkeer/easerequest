@@ -1,6 +1,6 @@
 {
   "name": "tkeer/ease-request",
-  "description": "An laravel package to ease Input validation",
+  "description": "A laravel package to ease Input validation",
   "keywords": ["laravel", "dynamic", "validation", "rules"],
   "authors": [
     {
