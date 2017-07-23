@@ -1,0 +1,17 @@
+{
+  "name": "tkeer/ease-request",
+  "description": "An laravel package to ease Input validation",
+  "authors": [
+    {
+      "name": "taukeer",
+      "email": "taukeer.liaqat@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "EaseRequest\\": "src/"
+    }
+  }
+}
