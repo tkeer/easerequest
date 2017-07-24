@@ -1,3 +1,15 @@
+## How it works
+Inside the ``rules`` function of ``FormRequest`` class, write rule like this
+
+```name => exists:users,name,group_id,{group_id}```
+
+Whenever you will place any keyword inside curly braces EaseRequest will replace those keyword 
+with values fetched from Request or your custom function
+
+If group_id is 3 in Request, above rule will be converted to following 
+
+```name => exists:users,name,group_id,3```
+
 ## About EaseRequest
 EaseRequest is laravel package that supports updating FormRequest validation rules at the run time.
 
